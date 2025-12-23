@@ -1,0 +1,839 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link
+    href="https://cdn.jsdelivr.net/npm/remixicon@4.7.0/fonts/remixicon.css"
+    rel="stylesheet"/>
+    <link rel="icon" href="assests/img/icons.png">
+    <link
+  rel="stylesheet"
+  href="https://cdn.jsdelivr.net/npm/swiper@12/swiper-bundle.min.css"
+/>
+
+
+
+    <link rel="stylesheet" href="assests/css/style.css">
+    <title>Yash-Portfolio</title>
+</head>
+<body>
+    <header class="header" id="header">
+        <nav class="nav container">
+            <a href="#" class="nav-logo">Yash</a>
+            <div class="nav-menu" id="nav-menu">
+                <ul class="nav-list">
+                    <li class="nav-item">
+                        <a href="#home" class="nav-link active-link">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#services" class="nav-link">Services</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#skills" class="nav-link">Skills</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#works" class="nav-link">Works</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#resume" class="nav-link">Resume</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#contact" class="nav-link">Contact</a>
+                    </li>
+                </ul>
+                <div class="social-links">
+                    <a href="https://x.com/23bce79157628" taregt="_black" class="social-link">
+                        <i class="ri-twitter-x-fill"></i>
+                    </a>
+                    <a href="https://github.com/reacher-virus" taregt="_black" class="social-link">
+                        <i class="ri-github-line"></i>
+                    </a>
+                    <a href="https://www.linkedin.com/in/yash-agnihotri-26a102327?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" taregt="_black" class="social-link">
+                        <i class="ri-linkedin-box-fill"></i>
+                    </a>
+                </div>
+
+                <div class="section-deco deco-left header-deco">
+                    <img src="assests/img/shape-1.png" alt="" class="shape">
+                </div>
+            </div>
+            <div class="nav-buttons">
+                <div class="nav-settings" id="switcher-toggler">
+                    <i class="ri-settings-3-fill"></i>
+                </div>
+                <div class="nav-toggle" id="nav-toggle"></div>
+            </div>
+        </nav>
+    </header>
+
+    <!--========== MAIN JS ==========-->
+    <main class="main">
+        <!--========== HOME ==========-->
+        <section class="home section" id="home">
+            <div class="home-container container">
+                <div class="home-content">
+                    <h2 class="home-subtitle">Hello , <span>My Name is</span></h2>
+                    <h1 class="home-title"><span>Yash</span> Agnihotri</h1>
+                    <h3 class="home-job">AI-ML Engineer</h3>
+
+                    <div class="home-banner">
+                        <div class="home-img-wrapper">
+                            <img src="assests/img/profile.png" alt="" class="home-profile">
+                        </div>
+
+                        <div class="home-data home-data-one">
+                            <span class="home-data-no">2+</span>
+                            <h3 class="home-data-title">Years Of <span>Experience</span></h3>
+                        </div>
+
+                        <div class="home-data home-data-two">
+                            <span class="home-data-no">10</span>
+                            <h3 class="home-data-title">Completed <span>Projects</span></h3>
+                        </div>
+
+                        <img src="assests/img/shape-1.png" alt="" class="shape shape-1">
+                        <img src="assests/img/shape-2.png" alt="" class="shape shape-2">
+                        <img src="assests/img/shape-3.png" alt="" class="shape shape-3">
+                    </div>
+                    <p class="home-description">
+                        I am from Lucknow, India. I have rich experience in Machine learning, web design and am skilled in Data Structres. I love discussing what makes us unique.
+                    </p>
+                    <div class="home-socials social-links">
+                    <a href="https://x.com/23bce79157628" taregt="_black" class="social-link">
+                        <i class="ri-twitter-x-fill"></i>
+                    </a>
+                    <a href="https://github.com/reacher-virus" taregt="_black" class="social-link">
+                        <i class="ri-github-line"></i>
+                    </a>
+                    <a href="https://www.linkedin.com/in/yash-agnihotri-26a102327?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" taregt="_black" class="social-link">
+                        <i class="ri-linkedin-box-fill"></i>
+                    </a>
+                </div>
+                    <div class="home-btn">
+                        <a download="" href="assests/pdf/yash_resume.pdf" class="btn">Download CV</a>
+
+                        <a href="#skills" class="home-link">My Skills</a>
+                    </div>
+                </div>
+
+                <div class="section-deco deco-left">
+                    <img src="assests/img/shape-1.png" alt="" class="shape">
+                </div>
+            </div>
+        </section>
+
+        <!---============Services===========-->
+        <section class="services section" id="services">
+            <h2 class="section-title" data-title="My Services">What I Do</h2>
+            <div class="container">
+                <div class="swiper services-swiper">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide card">
+                            <h4 class="services-subtitle">Web Development</h4>
+
+                            <h3 class="services-title">Web Design and manipulation</h3>
+
+                            <p class="services-description">I am a web developer who builds clean, functional, and scalable web applications. I focus on turning real requirements into reliable front-end and back-end solutions, with strong attention to performance, usability, and maintainable code. I’m comfortable working across the stack, debugging real problems, and shipping features that actually work in production.</p>
+
+                            <a href="" class="link">See Pricing <i class="ri-arrow-right-line link-icon"></i></a>
+                        </div>
+
+                        <div class="swiper-slide card">
+                            <h4 class="services-subtitle">Building Data-Driven Models That Solve Real Problems</h4>
+
+                            <h3 class="services-title">AI & ML Engineer</h3>
+
+                            <p class="services-description">I design and develop machine learning and AI solutions that turn data into actionable insights. My work includes data preprocessing, model training, evaluation, and deployment of ML models into real applications. I focus on practical use cases—automation, prediction, and intelligent systems—rather than theoretical demos, with strong attention to model performance, scalability, and reliability in production environments.</p>
+
+                            <a href="" class="link">See Pricing <i class="ri-arrow-right-line link-icon"></i></a>
+                        </div>
+
+
+                        <div class="swiper-slide card">
+                            <h4 class="services-subtitle">App Development</h4>
+
+                            <h3 class="services-title">Ios and Android</h3>
+
+                            <p class="services-description">I am an app developer who builds reliable, user-focused mobile applications. I work on designing, developing, testing, and maintaining apps with an emphasis on performance, clean architecture, and intuitive user experience. I focus on writing maintainable code, integrating APIs, handling real-world edge cases, and delivering apps that function smoothly in production—not just in demos.</p>
+
+                            <a href="" class="link">See Pricing <i class="ri-arrow-right-line link-icon"></i></a>
+                        </div>
+                        
+                        
+                        <div class="swiper-slide card">
+                            <h4 class="services-subtitle">Online Teaching</h4>
+
+                            <h3 class="services-title">Data Structres and algo.</h3>
+
+                            <p class="services-description">lecture on online platform on data Structures and algorithm giving insight about different topics like linked list,tree,graph etc. available on google meet and ms meet and zoho.</p>
+
+                            <a href="" class="link">See Pricing <i class="ri-arrow-right-line link-icon"></i></a>
+                        </div>
+                        <div class="swiper-slide card">
+                            <h4 class="services-subtitle">Freelancing</h4>
+
+                            <h3 class="services-title">Work for demand</h3>
+
+                            <p class="services-description">I work as a freelancer delivering practical, reliable software solutions for real business needs. I collaborate directly with clients to understand requirements, set clear expectations, and deliver clean, maintainable code on time. My focus is on solving problems efficiently, communicating clearly, and building solutions that are usable, scalable, and ready for production—not overengineered demos.</p>
+
+                            <a href="" class="link">See Pricing <i class="ri-arrow-right-line link-icon"></i></a>
+                        </div>
+                    </div>
+                    <div class="swiper-pagination"></div>
+                </div>
+
+                <div class="section-deco deco-right">
+                    <img src="assests/img/shape-1.png" alt="" class="shape">
+                </div>
+            </div>
+        </section>
+
+        <!--===========skills================-->
+
+        <section class="skills section" id="skills">
+            <h2 class="section-title" data-title="My Talent">Professional Skills</h2>
+            <div class="skills-container container grid">
+                
+
+                <div class="skills-item">
+                    <div class="skills-header">
+                        <h3 class="skills-name">Java</h3>
+                        <span class="skills-value">80 <b>%</b></span>
+                    </div>
+                    <p class="skills-description">
+                        I have a strong foundation in Java with deep understanding of object-oriented programming and data structures. I confidently solve algorithmic problems, design efficient logic, and write clean, structured code.
+                    </p>
+
+                    <div class="skills-bar">
+                        <span class="skills-percentage" style="width: 80%;"></span>
+                    </div>
+                </div>
+
+                <div class="skills-item">
+                    <div class="skills-header">
+                        <h3 class="skills-name">JavaScript</h3>
+                        <span class="skills-value">65 <b>%</b></span>
+                    </div>
+                    <p class="skills-description">
+                        I have a strong foundation in JavaScript with deep understanding of object-oriented programming, data structures and asynchronous programming. I can build dynamic websites and and call APIs to fetch data.
+                    </p>
+
+                    <div class="skills-bar">
+                        <span class="skills-percentage" style="width: 65%;"></span>
+                    </div>
+                </div>
+
+                <div class="skills-item">
+                    <div class="skills-header">
+                        <h3 class="skills-name">Machine Learning</h3>
+                        <span class="skills-value">85 <b>%</b></span>
+                    </div>
+                    <p class="skills-description">
+                        I have a strong foundation in Machiene Learning with deep understanding of various algorithms like regression,classification,clustering etc. I can build and deploy ML models for real world problems.
+                    </p>
+
+                    <div class="skills-bar">
+                        <span class="skills-percentage" style="width: 85%;"></span>
+                    </div>
+                </div>
+
+                <div class="skills-item">
+                    <div class="skills-header">
+                        <h3 class="skills-name">Python</h3>
+                        <span class="skills-value">80 <b>%</b></span>
+                    </div>
+                    <p class="skills-description">
+                        I have a strong foundation in Python with deep understanding of python libraries which help in developing Ml programs. I confidently solve algorithmic problems, design efficient logic, and write clean, structured code.
+                    </p>
+
+                    <div class="skills-bar">
+                        <span class="skills-percentage" style="width: 80%;"></span>
+                    </div>
+                </div>
+
+                <div class="skills-item">
+                    <div class="skills-header">
+                        <h3 class="skills-name">C/C++</h3>
+                        <span class="skills-value">60 <b>%</b></span>
+                    </div>
+                    <p class="skills-description">
+                        I have a strong foundation in C/C++ with deep understanding of object-oriented programming and data structures. I confidently solve algorithmic problems, design efficient logic, and write clean, structured code.
+                    </p>
+
+                    <div class="skills-bar">
+                        <span class="skills-percentage" style="width: 60%;"></span>
+                    </div>
+                </div>
+
+                <div class="skills-item">
+                    <div class="skills-header">
+                        <h3 class="skills-name">HTML/CSS</h3>
+                        <span class="skills-value">90 <b>%</b></span>
+                    </div>
+                    <p class="skills-description">
+                        I have a strong foundation in HTML/CSS with deep understanding of web design and development. I can build responsive and visually appealing websites with clean and structured code.
+                    </p>
+
+                    <div class="skills-bar">
+                        <span class="skills-percentage" style="width: 90%;"></span>
+                    </div>
+                </div>
+
+
+                <div class="skills-item">
+                    <div class="skills-header">
+                        <h3 class="skills-name">Frameworks/libraries</h3>
+                        <span class="skills-value">55 <b>%</b></span>
+                    </div>
+                    <p class="skills-description">
+                        I have a strong foundation in various frameworks and libraries like React,Node.js,Tensorflow,Numpy, Pandas,MatplotLib, Scikit-Learning etc. I can build efficient and scalable applications using these frameworks.
+
+                    </p>
+
+                    <div class="skills-bar">
+                        <span class="skills-percentage" style="width: 55%;"></span>
+                    </div>
+                </div>
+
+                <div class="skills-item">
+                    <div class="skills-header">
+                        <h3 class="skills-name">Tools</h3>
+                        <span class="skills-value">70 <b>%</b></span>
+                    </div>
+                    <p class="skills-description">
+                        I have a strong foundation in various tools like Git, Jupyter Notebook, VS Code etc. I can use these tools to manage code, collaborate with team members and deploy applications.
+                    </p>
+
+                    <div class="skills-bar">
+                        <span class="skills-percentage" style="width: 70%;"></span>
+                    </div>
+                </div>
+
+
+                <div class="skills-item">
+                    <div class="skills-header">
+                        <h3 class="skills-name">DataBases</h3>
+                        <span class="skills-value">60 <b>%</b></span>
+                    </div>
+                    <p class="skills-description">
+                        I have a strong foundation in various databases like MySQL, MongoDB etc. I can design and manage databases to store and retrieve data efficiently.
+                    </p>
+
+                    <div class="skills-bar">
+                        <span class="skills-percentage" style="width: 60%;"></span>
+                    </div>
+                </div>
+
+
+                <div class="skills-item">
+                    <div class="skills-header">
+                        <h3 class="skills-name">SoftSkills</h3>
+                        <span class="skills-value">95 <b>%</b></span>
+                    </div>
+                    <p class="skills-description">
+                        I have strong soft skills like communication, teamwork, problem-solving etc. I can work effectively in a team and communicate my ideas clearly.
+                    </p>
+
+                    <div class="skills-bar">
+                        <span class="skills-percentage" style="width: 90%;"></span>
+                    </div>
+                </div>
+
+                <div class="section-deco deco-left">
+                    <img src="assests/img/shape-1.png" alt="" class="shape">
+                </div>
+                
+                </div>
+    </div>
+        </section>
+<!--work==========================-->
+
+
+        <section class="work section" id="works">
+            <h2 class="section-title" data-title="Recent Works">My Portfolio
+
+            </h2>
+
+            <div class="container">
+                <ul class="work-list">
+                    <li class="work-item active-work" data-filter="all">All</li>
+                    <li class="work-item" data-filter=".development">Development</li>
+                    <li class="work-item" data-filter=".machine">Machine Learning</li>
+                    <li class="work-item" data-filter=".freelancing">Freelancing</li>
+                </ul>
+
+
+                <div class="work-container grid">
+                    
+                    <div class="mix development">
+                        <div class="card">
+                            <img src="assests/img/development.png" alt="" class="work-img">
+
+                            <h4 class="work-category">development</h4>
+                            <h3 class="work-title">College Website</h3>
+                            <p class="work-description">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Minus voluptatibus expedita quas ea dolorum ab!</p>
+
+                            <a href="https://college-nu-rust.vercel.app/" target="_blank" class= "link" >Click <i class="ri-arrow-right-line link-icon"></i></a>
+                        </div>
+                    </div>
+
+                    <div class="mix machine">
+                        <div class="card">
+                            <img src="assests/img/machine.jpg" alt="" class="work-img">
+
+                            <h4 class="work-category">Machine Learning</h4>
+                            <h3 class="work-title">AI based resume generator</h3>
+                            <p class="work-description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde deserunt nesciunt necessitatibus sunt voluptatem tempore?</p>
+
+                            <a href="#" class="link">In Development <i class="ri-arrow-right-line link-icon"></i></a>
+                        </div>
+                    </div>
+
+                    <div class="mix development">
+                        <div class="card">
+                            <img src="assests/img/Screenshot 2025-12-14 165747.png" alt="" class="work-img">
+
+                            <h4 class="work-category">Development</h4>
+                            <h3 class="work-title">E-commerce Website</h3>
+                            <p class="work-description">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ipsa dolorum eum quisquam recusandae rem tenetur.</p>
+
+                            <a href="https://airpods-sooty.vercel.app/" target="_blank" class="link">check <i class="ri-arrow-right-line link-icon"></i></a>
+                        </div>
+                    </div>
+
+                    <div class="mix freelancing">
+                        <div class="card">
+                            <img src="assests/img/Screenshot 2025-12-14 165852.png" alt="" class="work-img">
+
+                            <h4 class="work-category">Freelancing</h4>
+                            <h3 class="work-title">Leica Website</h3>
+                            <p class="work-description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Non provident maxime, eos vel laboriosam omnis?</p>
+
+                            <a href="" class="link">check <i class="ri-arrow-right-line link-icon"></i></a>
+                        </div>
+                    </div>
+
+                    <div class="mix machine">
+                        <div class="card">
+                            <img src="assests/img/Screenshot 2025-12-14 170128.png" alt="" class="work-img">
+
+                            <h4 class="work-category">Machine Learning</h4>
+                            <h3 class="work-title">Ai powered crop yeild platform</h3>
+                            <p class="work-description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi incidunt fugit minima ab consequatur consectetur sint vel ex odit nobis?</p>
+
+                            <a href="https://sih-project-wine.vercel.app" target="_blank" class="link">Check <i class="ri-arrow-right-line link-icon"></i></a>
+                        </div>
+                    </div>
+                    <div class="mix freelancing">
+                        <div class="card">
+                            <img src="assests/img/card.png" alt="" class="work-img">
+
+                            <h4 class="work-category">Freelancing</h4>
+                            <h3 class="work-title">Glassmorphism</h3>
+                            <p class="work-description">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Omnis molestiae error, molestias eius sequi minima! Sapiente alias voluptas suscipit officia.
+                            </p>
+
+                            <a href="#" class="link">check <i class="ri-arrow-right-line link-icon"></i></a>
+                        </div>
+                    </div>
+
+
+
+                </div>
+
+                <div class="section-deco deco-right">
+                    <img src="assests/img/shape-1.png" alt="" class="shape">
+                </div>
+            </div>
+        </section>
+
+        <!--============Resume================-->
+        <section class="resume section" id="resume">
+            <h2 class="section-title" data-title="My Story">Resume</h2>
+            <div class="resume-container container grid">
+                <div class="resume-group">
+                    <h3 class="resume-title">Education</h3>
+
+                        <div class="resume-items">
+                            <div class="resume-item">
+                                <div class="resume-header">
+                                    <h3 class="resume-header-title">Vellore institute of Technology</h3>
+                                        <span class="resume-icon">
+                                            <i class="ri-add-line"></i>
+                                        </span>
+                                   
+                                </div>
+
+                                <div class="resume-content">
+                                    <div class="resume-content-header">
+                                        <h3 class="resume-content-title">Bachelor of Technology in Computer Science and Engineering</h3>
+                                        <span class="resume-date">2023-present</span>
+                                    </div>
+
+                                    <p class="resume-description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente ipsa vel aliquid tempore cumque id magni libero laboriosam rerum soluta.</p>
+                                </div>
+                            </div>
+
+                            <div class="resume-item">
+                                <div class="resume-header">
+                                    <h3 class="resume-header-title">Kendriya Vidyalaya </h3>
+                                        <span class="resume-icon">
+                                            <i class="ri-add-line"></i>
+                                        </span>
+                                   
+                                </div>
+
+                                <div class="resume-content">
+                                    <div class="resume-content-header">
+                                        <h3 class="resume-content-title">12th Standard :-Cbse Board</h3>
+                                        <span class="resume-date">2021-2022</span>
+                                    </div>
+
+                                    <p class="resume-description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo, totam animi molestias quod nihil sit consectetur optio beatae? Nam, voluptatibus.</p>
+                                </div>
+                            </div>
+
+                            <div class="resume-item">
+                                <div class="resume-header">
+                                    <h3 class="resume-header-title">Kendriya Vidyalaya</h3>
+                                        <span class="resume-icon">
+                                            <i class="ri-add-line"></i>
+                                        </span>
+                                   
+                                </div>
+
+                                <div class="resume-content">
+                                    <div class="resume-content-header">
+                                        <h3 class="resume-content-title">10th Standard :-Cbse Board</h3>
+                                        <span class="resume-date">2019-2020</span>
+                                    </div>
+
+                                    <p class="resume-description">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Iure voluptates minus dolor illo rerum nam aspernatur quasi minima aut quae?</p>
+                                </div>
+                            </div>
+
+
+                        </div>
+                    
+                </div>
+
+                <div class="resume-group">
+                    <h3 class="resume-title">Clubs and Chapters</h3>
+
+                        <div class="resume-items">
+                            <div class="resume-item">
+                                <div class="resume-header">
+                                    <h3 class="resume-header-title"> Madhya Bharat Asso. | VIT-AP University</h3>
+                                        <span class="resume-icon">
+                                            <i class="ri-add-line"></i>
+                                        </span>
+                                   
+                                </div>
+
+                                <div class="resume-content">
+                                    <div class="resume-content-header">
+                                        <h3 class="resume-content-title">co-lead Event management team</h3>
+                                        <span class="resume-date">2024-2025</span>
+                                    </div>
+
+                                    <p class="resume-description">Led and coordinated multiple cultural events representing Central Indian traditions.
+                                    Managed event logistics, scheduling, and inter-departmental communication.
+                                    Mentored junior members, delegated responsibilities, and maintained event quality.
+                                    </p>
+                                </div>
+                            </div>
+
+                            <div class="resume-item">
+                                <div class="resume-header">
+                                    <h3 class="resume-header-title">Data Science Club,VIT-AP University </h3>
+                                        <span class="resume-icon">
+                                            <i class="ri-add-line"></i>
+                                        </span>
+                                   
+                                </div>
+
+                                <div class="resume-content">
+                                    <div class="resume-content-header">
+                                        <h3 class="resume-content-title">Member – Technical Team</h3>
+                                        <span class="resume-date">2024-2025</span>
+                                    </div>
+
+                                    <p class="resume-description">Contributed to data-driven projects by analyzing real-world datasets.
+                                    Collaborated with a cross-functional team to build end-to-end ML pipelines for club
+                                    Applied Python, pandas, scikit-learn, and visualization libraries to uncover trends.
+                                    </p>
+                                </div>
+                            </div>
+
+                            <div class="resume-item">
+                                <div class="resume-header">
+                                    <h3 class="resume-header-title"> V-Launchpad 2025 (Global Innovators Challenge), VIT-AP University </h3>
+                                        <span class="resume-icon">
+                                            <i class="ri-add-line"></i>
+                                        </span>
+                                   
+                                </div>
+
+                                <div class="resume-content">
+                                    <div class="resume-content-header">
+                                        <h3 class="resume-content-title">Student Coordinato</h3>
+                                        <span class="resume-date">Feb-2025</span>
+                                    </div>
+
+                                    <p class="resume-description">As the Student Coordinator for V-Launchpad 2025, the Global Innovators Challenge at
+                                    VIT-AP University, I was responsible for overseeing event planning and execution,
+                                    coordinating between organizing committees, participants, and invited dignitaries. I
+                                    facilitated logistics for startup pitching and ideation tracks, ensuring smooth operations
+                                    throughout the event. My role contributed to fostering an entrepreneurial ecosystem and
+                                    en providing a platform for innovative ideas aligned with the vision of Swarna Andhra @2047</p>
+                                </div>
+                            </div>
+
+                            
+                        </div>
+                    </h3>
+                </div>
+
+                 <div class="resume-group">
+                    <h3 class="resume-title">Certifications</h3>
+
+                        <div class="resume-items">
+                            <div class="resume-item">
+                                <div class="resume-header">
+                                    <h3 class="resume-header-title">
+                                        ibm certification for ibm cloud
+                                         </h3>
+                                        <span class="resume-icon">
+                                            <i class="ri-add-line"></i>
+                                        </span>
+                                   
+                                </div>
+
+                                <div class="resume-content">
+                                    <div class="resume-content-header">
+                                        <h3 class="resume-content-title">
+                                            IBM Cloud Certified – Foundations of Cloud Computing
+                                        </h3>
+                                        <span class="resume-date">july-2025</span>
+                                    </div>
+
+                                    <p class="resume-description">Certified in IBM Cloud with a solid understanding of core cloud concepts, services, and deployment fundamentals. Familiar with cloud infrastructure, scalability, and basic cloud-based workflows, with the ability to apply these concepts in practical academic and project environments.</p>
+                                </div>
+                            </div>
+
+                            <div class="resume-item">
+                                <div class="resume-header">
+                                    <h3 class="resume-header-title">AWS certification </h3>
+                                        <span class="resume-icon">
+                                            <i class="ri-add-line"></i>
+                                        </span>
+                                   
+                                </div>
+
+                                <div class="resume-content">
+                                    <div class="resume-content-header">
+                                        <h3 class="resume-content-title">WS Certified – Cloud Foundations & Solutions Architecture</h3>
+                                        <span class="resume-date">oct-2025</span>
+                                    </div>
+
+                                    <p class="resume-description">AWS certified in Cloud Foundations and Solutions Architecture with a strong understanding of core AWS services, cloud design principles, scalability, security basics, and cost-aware architecture. Able to design and reason about reliable cloud solutions and apply AWS best practices in academic, personal, and early-stage production projects.</p>
+                                </div>
+                            </div>
+
+                            <div class="resume-item">
+                                <div class="resume-header">
+                                    <h3 class="resume-header-title">Generative AI </h3>
+                                        <span class="resume-icon">
+                                            <i class="ri-add-line"></i>
+                                        </span>
+                                   
+                                </div>
+
+                                <div class="resume-content">
+                                    <div class="resume-content-header">
+                                        <h3 class="resume-content-title">Generative AI – Foundations and Practical Applications</h3>
+                                        <span class="resume-date">june-2025</span>
+                                    </div>
+
+                                    <p class="resume-description">Completed a Generative AI course covering core concepts, model fundamentals, and practical use cases. Experienced in applying generative models for text and data-driven tasks, understanding prompt design, and integrating GenAI capabilities into applications with a focus on responsible and effective usage.</p>
+                                </div>
+                            </div>
+
+                            
+                        </div>
+                    </h3>
+                </div>
+
+                <div class="section-deco deco-left">
+                    <img src="assests/img/shape-1.png" alt="" class="shape">
+                </div>
+            </div>
+            </section>
+
+            <!---================COntact==========-->
+<section class="contact section" id="contact">
+  <h2 class="section-title" data-title="let's get in touch">Contact Me</h2>
+
+  <div class="contact-container container grid">
+    <div class="contact-content">
+
+      <div class="contact-card">
+        <span class="contact-icon"><i class="ri-map-2-line"></i></span>
+        <div>
+          <h3 class="contact-title">Address</h3>
+          <p class="contact-data">Lucknow, Uttar Pradesh, India</p>
+        </div>
+      </div>
+
+      <div class="contact-card">
+        <span class="contact-icon"><i class="ri-user-3-line"></i></span>
+        <div>
+          <h3 class="contact-title">Freelance</h3>
+          <p class="contact-data">Available right now</p>
+        </div>
+      </div>
+
+      <div class="contact-card">
+        <span class="contact-icon"><i class="ri-mail-line"></i></span>
+        <div>
+          <h3 class="contact-title">Email</h3>
+          <p class="contact-data">yashpree237915@gmail.com</p>
+        </div>
+      </div>
+
+      <div class="contact-card">
+        <span class="contact-icon"><i class="ri-contacts-book-2-line"></i></span>
+        <div>
+          <h3 class="contact-title">Phone</h3>
+          <p class="contact-data">+91 8840844749</p>
+        </div>
+      </div>
+
+    </div>
+
+    <form class="contact-form grid" id="contact-form">
+
+      <div class="contact-form-div">
+        <label class="contact-form-label">Your Full Name *</label>
+        <input type="text" name="name" id="contact-name" class="contact-form-input" />
+      </div>
+
+      <div class="contact-form-div">
+        <label class="contact-form-label">Your Email *</label>
+        <input type="email" name="email" id="contact-email" class="contact-form-input" />
+      </div>
+
+      <div class="contact-form-div">
+        <label class="contact-form-label">Subject *</label>
+        <input type="text" name="subject" id="contact-subject" class="contact-form-input" />
+      </div>
+
+      <div class="contact-form-div">
+        <label class="contact-form-label">Message *</label>
+        <textarea name="message" id="contact-message"
+          class="contact-form-input contact-form-area"></textarea>
+      </div>
+
+      <div class="contact-submit">
+        <span>*Accept the terms and conditions.</span>
+        <button type="submit" class="btn">Send Message</button>
+      </div>
+
+      <p class="message" id="message"></p>
+
+    </form>
+    <div class="section-deco deco-right">
+                    <img src="assests/img/shape-1.png" alt="" class="shape">
+                </div>
+  </div>
+</section>
+
+    </main>
+
+    <div class="style-switcher" id="style-switcher">
+        <h2 class="style-switcher-title">Style Switcher</h2>
+        <div class="style-switcher-item">
+            <h3 class="style-switcher-subtitle">Colors</h3>
+
+            <div class="style-switcher-colors">
+                <span class="style-switcher-color" style="--hue: 165">
+                    <i class="ri-check-line"></i>
+                </span>
+
+                <span class="style-switcher-color active-color" style="--hue: 260">
+                    <i class="ri-check-line"></i>
+                </span>
+
+                <span class="style-switcher-color" style="--hue: 345">
+                    <i class="ri-check-line"></i>
+                </span>
+
+                <span class="style-switcher-color" style="--hue: 300">
+                    <i class="ri-check-line"></i>
+                </span>
+
+                <span class="style-switcher-color" style="--hue: 10">
+                    <i class="ri-check-line"></i>
+                </span>
+            </div>
+        </div>
+        <div class="style-switcher-item">
+            <h3 class="style-switcher-subtitle">Theme</h3>
+
+            <div class="style-switcher-themes">
+                <div class="style-switcher-theme">
+                    <input type="radio" class="style-switcher-input" name="body-theme" value="light" checked ="true" id="light-theme"/>
+
+                    <label for="light-theme" class="style-switcher-label">Light</label>
+                </div>
+
+                <div class="style-switcher-theme">
+                    <input type="radio" class="style-switcher-input" name="body-theme" value="dark" id="dark-theme"/>
+
+                    <label for="dark-theme" class="style-switcher-label">Dark</label>
+                </div>
+            </div>
+        </div>
+
+        <div class="style-switcher-close" id="switcher-close">
+            <i class="ri-close-line"></i>
+        </div>
+    </div>
+
+    <!--============Footer================-->
+    <footer class="footer">
+        <div class="footer-container container">
+             <div class="footer-socials social-links">
+                    <a href="https://x.com/23bce79157628" taregt="_black" class="social-link">
+                        <i class="ri-twitter-x-fill"></i>
+                    </a>
+                    <a href="https://github.com/reacher-virus" taregt="_black" class="social-link">
+                        <i class="ri-github-line"></i>
+                    </a>
+                    <a href="https://www.linkedin.com/in/yash-agnihotri-26a102327?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" taregt="_black" class="social-link">
+                        <i class="ri-linkedin-box-fill"></i>
+                    </a>
+                </div>
+
+                <p class="footer-copyright">©️ 2025 <span>Yash</span>. All Right Reserved</p>
+
+                <p class="footer-copyright">Developed by <span>Yash</span></p>
+        </div>
+    </footer>
+
+    <!--========== swiper JS ==========-->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@12/swiper-bundle.min.js"></script>
+
+    <!--===============MixItup=============-->
+    <script src="assests/js/mixitup.min.js"></script>
+   
+    <!-- EmailJS CDN -->
+<script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
+<script>
+  emailjs.init("zpjspFAn8M6f9jWwj"); // PUBLIC KEY
+</script>
+    <!--js-->
+    <script src="assests/js/main.js"></script>
+</body>
+</html>
